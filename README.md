@@ -4,6 +4,9 @@
 #### Cinthia Silman RA 544590
 #### Leandro Cazarini RA 365858
 
+####MQTT = seu principal uso é fazer as máquinas conversarem.
+O protocolo MQTT é baseado no TCP/IP. Ele utiliza o paradigma publish/subscribe para a troca de mensagens. Este paradigma utiliza o conceito de tópicos para processar as mensagens, em que cada mensagem é enviada para um determinado tópico. O publisher não envia a mensagem diretamente ao subscriber, diferente dos outros protocolos, mas sim ao broker. Um broker popular que é Mosquitto.
+
 ### Instalação servido MQTT 
 
 sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
